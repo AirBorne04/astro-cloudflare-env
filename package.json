@@ -1,0 +1,20 @@
+{
+  "name": "@example/blog",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "wrangler pages dev ./dist",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^3.1.2",
+    "@astrojs/solid-js": "^1.2.2",
+    "astro": "^1.6.3",
+    "solid-js": "^1.6.1",
+    "wrangler": "^2.1.15"
+  }
+}
